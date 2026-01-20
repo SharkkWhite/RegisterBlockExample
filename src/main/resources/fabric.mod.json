@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "registerblockexample",
+  "version": "${version}",
+  "name": "RegisterBlockExample",
+  "description": "Mod de como hacer tu propio bloque en minecraft",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/registerblockexample/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "space.registerblockexample.client.RegisterblockexampleClient"
+    ],
+    "main": [
+      "space.registerblockexample.Registerblockexample"
+    ]
+  },
+  "mixins": [
+    "registerblockexample.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "registerblockexample:block/example_block"
+    }
+  }
+}
